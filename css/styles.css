@@ -12,22 +12,28 @@
   float: left;
   font-size: 12px;
   padding-left: 10px;
+  display: inline;
 }
+
 .logoimg {
   width: 100%;
 }
+
 .sidebar li {
   color: blue;
 }
+
 ul {
   list-style: none;
   padding-left: 0;
 }
 
-.wrapper {
+.subnav {
   padding-top: 60px;
   height: 110px;
   overflow: hidden;
+  float: left;
+  width: 100%;
 }
 .righty {
   float: right;
@@ -35,11 +41,12 @@ ul {
 .welcome {
   height: 100px;
   margin-left: 20px;
+  padding-right: 20px;
   margin-top: 30px;
   float: left;
   background-color: lightgray;
   padding-top: 0px;
-  width: 80%;
+  width: 95%;
 }
 .leftpanel {
   float: left;
@@ -55,4 +62,25 @@ ul {
 }
 .rightpanel ul {
   list-style: initial;
+  color: blue;
+}
+
+.linkcolor {
+  color: blue;
+}
+
+.leftimg {
+  float: left;
+}
+
+.main {
+  width: 95%;
+  float: left;
+  margin-left: 20px;
+}
+
+.gridcontrol {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr;
 }
