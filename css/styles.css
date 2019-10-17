@@ -71,6 +71,8 @@ ul {
 
 .leftimg {
   float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .main {
@@ -83,4 +85,10 @@ ul {
   width: 100%;
   display: grid;
   grid-template-columns: 150px 1fr;
+}
+
+.rightimg {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
