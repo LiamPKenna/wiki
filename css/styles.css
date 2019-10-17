@@ -32,3 +32,27 @@ ul {
 .righty {
   float: right;
 }
+.welcome {
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 30px;
+  float: left;
+  background-color: lightgray;
+  padding-top: 0px;
+  width: 80%;
+}
+.leftpanel {
+  float: left;
+  width: 300px;
+  text-align: center;
+}
+.wikiwelcome {
+  margin: 0;
+  padding: 0;
+}
+.rightpanel {
+  float: right;
+}
+.rightpanel ul {
+  list-style: initial;
+}
