@@ -1,0 +1,22 @@
+.top-links {
+  float: right;
+  padding: 15px;
+}
+
+.sidebar {
+  width: 150px;
+  background-color: lightgray;
+  float: left;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.logoimg {
+  width: 100%;
+}
+.sidebar li {
+  color: blue;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
