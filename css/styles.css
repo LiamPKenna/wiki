@@ -8,7 +8,7 @@
 
 .sidebar {
   width: 150px;
-  background-color: lightgray;
+  background-color: #f9f9f9;
   float: left;
   font-size: 12px;
   padding-left: 10px;
@@ -20,7 +20,7 @@
 }
 
 .sidebar li {
-  color: blue;
+  color: #0645ad;
 }
 
 ul {
@@ -44,7 +44,7 @@ ul {
   padding-right: 20px;
   margin-top: 30px;
   float: left;
-  background-color: lightgray;
+  background-color: #f9f9f9;
   padding-top: 0px;
   width: 95%;
 }
@@ -62,11 +62,11 @@ ul {
 }
 .rightpanel ul {
   list-style: initial;
-  color: blue;
+  color: #0645ad;
 }
 
 .linkcolor {
-  color: blue;
+  color: #0645ad;
 }
 
 .leftimg {
@@ -91,4 +91,24 @@ ul {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
+}
+body {
+  font-family: sans-serif;
+}
+
+.panel-heading {
+  padding: 3px;
+
+}
+
+.panel-heading h4 {
+  margin: 2px;
+  color: black;
+  font-weight: bold;
+}
+.panel-success {
+  background-color: #f5fffa;
+}
+.panel-info {
+  background-color: #f5faff;
 }
